@@ -73,13 +73,69 @@ Durante essa etapa, você pode orientar a IA para três entregas principais:
 Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
 No README do seu repositório, inclua:
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
+- Seu **prompt final** (PRD);
+```txt
+# Contexto
+Estou desenvolvendo um aplicativo de Organização de Finanças Pessoais baseado em interações conversacionais com o usuário. O objetivo é simplificar o controle financeiro, tornando-o mais intuitivo e natural, sem depender de formulários extensos ou planilhas complicadas.
+# Problema
+Grande parte dos usuários abandona o controle financeiro devido à exigência de muita entrada manual e à falta de personalização nos aplicativos tradicionais. Procuro solucionar isso oferecendo uma experiência conversacional aliada a recomendações automáticas de economia.
+# Público-Alvo
+Indivíduos que desejam iniciar a organização financeira de maneira prática e descomplicada, com foco especial em iniciantes.
+# Funcionalidades-Chave
+1. Registrar gastos e receitas através de chat em linguagem natural.
+2. Classificação automática das transações.
+3. Definição e acompanhamento de metas financeiras personalizadas.
+4. Recebimento de dicas de economia fornecidas por um “Agente Financeiro”.
+5. Visualização de relatórios simples e customizáveis sobre os gastos.
+# Entregável esperado da IA
+Solicito a elaboração de um plano de MVP que contemple:
+- As principais telas do aplicativo
+- Recursos essenciais necessários
+- Esboço do processo de validação inicial
+O tom deve ser educativo, linguagem clara e acessível, em português.
+Begin with a concise checklist (3-7 bullets) de ações que você irá realizar antes de produzir o plano solicitado, para garantir organização e cobertura dos requisitos.
+Siga o raciocínio internamente e apenas exponha etapas essenciais de validação e progresso, mantendo o foco nos resultados finais.
+## Output Format
+Responda utilizando o seguinte formato estruturado em Markdown:
+
+## Plano MVP do App de Finanças Pessoais via Conversa
+### 1. Telas Principais
+Forneça uma lista ordenada das telas essenciais. Para cada tela, inclua:
+- **Nome da Tela:**
+- **Descrição:**
+- **Principais Elementos/Funcionalidades:**
+### 2. Recursos Necessários
+Liste os recursos obrigatórios para o MVP. Para cada recurso, inclua:
+- **Nome do Recurso:**
+- **Descrição:**
+- **Dependências/Tecnologias Principais:** (se aplicável)
+### 3. Esboço de Validação Inicial
+Especifique como validar o MVP. Inclua:
+- **Critérios de Aceitação:**
+- **Métricas de Sucesso:**
+- **Principais Etapas/Processos de Validação:**
+
+Após entregar a resposta, faça uma breve verificação para garantir que todas as seções estão completas e aderem ao formato exigido. Em caso de dúvida quanto à interpretação dos requisitos ou formato, peça esclarecimento ao usuário.
+Siga rigorosamente o formato acima para garantir fácil documentação, integração ou automação futura.
+```
+- Prints ou pequenos vídeos das interações com a IA;
+<img width="1014" height="588" alt="image" src="https://github.com/user-attachments/assets/60a37b0b-b793-4e5c-8942-79493a1d6d3c" />
+
+
+- Um resumo do que o seu **App de Finanças Pessoais** faz;
+Ele conversa e personaliza os scorecards baseado no que eu falo para ele, ex: Quero registrar um novo gasto, ele registra, fazendo o calculo que eu preciso de forma simples
 - Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
+  - O que funcionou bem?
+    
+    O layout e apresentação das informações
+    
+  - O que não funcionou como o esperado?
+    
+    A interpretação dele sobre as informações não foram tão precisas.
+    
   - O que aprendeu sobre conversar com IAs?
+ 
+    Que é necessário ser preciso nas informações e bem detalhista
 
 > [!TIP]
 > Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
