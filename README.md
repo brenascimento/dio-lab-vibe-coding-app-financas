@@ -120,6 +120,7 @@ Siga rigorosamente o formato acima para garantir fácil documentação, integra�
 ```
 - Prints ou pequenos vídeos das interações com a IA;
 <img width="1014" height="588" alt="image" src="https://github.com/user-attachments/assets/60a37b0b-b793-4e5c-8942-79493a1d6d3c" />
+Site: https://turbofinance.lovable.app
 
 
 - Um resumo do que o seu **App de Finanças Pessoais** faz;
